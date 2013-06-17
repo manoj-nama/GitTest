@@ -1,4 +1,5 @@
-var http = require("http");
+yar http = require("http");
+var a =10;
 
 var server = http.createServer( function(res, res) {
 	res.setHeader(200, { "Content-Type": "text/html"});
